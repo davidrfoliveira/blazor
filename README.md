@@ -54,3 +54,11 @@ dotnet new razorcomponent -n Todo -o Pages
     }
 }
 ```
+4 - Criar modelo TodoItem
+```
+public class TodoItem
+{
+    public string Title { get; set; }
+    public bool IsDone { get; set; }
+}
+```
