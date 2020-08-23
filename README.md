@@ -30,7 +30,17 @@ public class TodoItem
 }
 ```
 
-4 - Abra o componente todo Pages/Todo.razor:
+4 - Adicione o componente Todo à barra de navegação (Shared/NavMenu.razor).
+
+```
+<li class="nav-item px-3">
+    <NavLink class="nav-link" href="todo">
+        <span class="oi oi-list-rich" aria-hidden="true"></span> Todo
+    </NavLink>
+</li>
+```
+
+5 - Abra o componente todo Pages/Todo.razor:
 
 ```html
 
