@@ -21,7 +21,7 @@ cd Todos
 ```C#
 dotnet new razorcomponent -n Todo -o Pages
 ```
-3 - Criar modelo TodoItem na raiz do projeto
+3 - Criar modelo TodoItem.cs na raiz do projeto
 ```
 public class TodoItem
 {
