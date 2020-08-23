@@ -43,9 +43,8 @@ public class TodoItem
 5 - Abra o componente todo Pages/Todo.razor:
 
 ```html
+@page "/todos"
 
-
-@page "/todo"
 <h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
 
 <ul>
@@ -74,5 +73,12 @@ public class TodoItem
         }
     }
 }
+
 ```
+6 - Execute o projeto:
+
+```C#
+dotnet run
+```
+
 
