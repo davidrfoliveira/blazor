@@ -9,11 +9,11 @@
 1 - Crie um novo aplicativo Blazor chamado Todos:
 
 ```C#
-dotnet new blazorserver -o TodoList
+dotnet new blazorserver -o Todos
 ```
 1.1 Com o projeto criado navegue até a pasta do projeto:
 ```
-cd TodoList
+cd Todos
 ``` 
 
 2 - Crie um novo componente
