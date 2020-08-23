@@ -21,7 +21,16 @@ cd TodoList
 ```C#
 dotnet new razorcomponent -n Todo -o Pages
 ```
-3 - Abra o componente todo Pages/Todo.razor:
+3 - Criar modelo TodoItem na raiz do projeto
+```
+public class TodoItem
+{
+    public string Title { get; set; }
+    public bool IsDone { get; set; }
+}
+```
+
+4 - Abra o componente todo Pages/Todo.razor:
 
 ```html
 
@@ -54,11 +63,4 @@ dotnet new razorcomponent -n Todo -o Pages
     }
 }
 ```
-4 - Criar modelo TodoItem
-```
-public class TodoItem
-{
-    public string Title { get; set; }
-    public bool IsDone { get; set; }
-}
-```
+
