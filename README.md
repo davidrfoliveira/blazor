@@ -44,6 +44,8 @@ public class TodoItem
 
 ```html
 
+
+@page "/todo"
 <h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
 
 <ul>
